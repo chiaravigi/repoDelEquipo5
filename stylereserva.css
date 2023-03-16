@@ -1,4 +1,40 @@
 
+.principal {
+    background: #757575;
+    margin: 0%;
+}
+.header{
+    background:#000000; 
+    height: 0px; 
+    width: 100%;
+
+}
+.footer{
+    background:#000000; 
+    height: 0px; 
+    width: 100%; 
+}
+.container{
+    height: 600px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.texto{
+   font-family: 'Franklin Gothic Medium';
+   font-size: 22px;
+   margin-bottom: 5px;
+}
+.campo{
+  width: 300px; 
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 5px;
+  outline: 0px;
+  border: 0px;
+}
+
 * {
     text-decoration: none;
     list-style: none;
@@ -48,22 +84,3 @@ nav ul li a {
     background: #DB8F01;
 }
 
-article {
-    background-color: #838E7B;
-    top: 1000px; 
-    left: 0px;
-    height: 300px;
-    width: 1330px;
-}
-
-.nuestroitamae {
-    background-color: #838E7B;
-    position: fixed;
-}
-
-.quienesSomos{
-
-    background-color: #838E7B;
-    position:relative;
-
-}
