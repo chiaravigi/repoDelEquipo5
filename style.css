@@ -3,6 +3,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    background-color: black;
 }
 
 nav {
@@ -56,14 +57,18 @@ article {
     width: 1330px;
 }
 
-.nuestroitamae {
-    background-color: #838E7B;
-    position: fixed;
-}
-
 .quienesSomos{
+    width: 100%;
+    background-color:  #838E7B;
+    color: white;
 
+
+}
+.nuestroItamae {
+    width: 100%;
     background-color: #838E7B;
-    position:relative;
+    color: white;
+
+   
 
 }
