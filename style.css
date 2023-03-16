@@ -1,11 +1,8 @@
 
 * {
-    padding: 0;
-    margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-
 }
 
 nav {
@@ -26,6 +23,8 @@ nav {
 }
 
 nav ul {
+    padding: 0;
+    margin: 0;
     float: right;
     margin-right: 20px;
 }
@@ -33,7 +32,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     line-height: 90px;
-    margin: 0px 130px;
+    margin: 0px 100px;
 }
 
 
@@ -47,4 +46,24 @@ nav ul li a {
 
 .menu li a:hover{
     background: #DB8F01;
+}
+
+article {
+    background-color: #838E7B;
+    top: 1000px; 
+    left: 0px;
+    height: 300px;
+    width: 1330px;
+}
+
+.nuestroitamae {
+    background-color: #838E7B;
+    position: fixed;
+}
+
+.quienesSomos{
+
+    background-color: #838E7B;
+    position:relative;
+
 }
