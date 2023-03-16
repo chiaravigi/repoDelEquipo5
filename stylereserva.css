@@ -5,13 +5,13 @@
 }
 .header{
     background:#000000; 
-    height: 250px; 
+    height: 0px; 
     width: 100%;
 
 }
 .footer{
     background:#000000; 
-    height: 250px; 
+    height: 0px; 
     width: 100%; 
 }
 .container{
@@ -19,6 +19,7 @@
     max-width: 1000px;
     width: 90%;
     margin: 0 auto;
+    padding: 50px;
 }
 .texto{
    font-family: 'Franklin Gothic Medium';
@@ -33,3 +34,53 @@
   outline: 0px;
   border: 0px;
 }
+
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: black;
+    height: 90px;
+    width: 100%;
+}
+
+.enlace {
+    
+    position: absolute;
+    padding: 5px 50px;
+
+} 
+
+.logo {
+    height: 80px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0px 100px;
+}
+
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.menu li a:hover{
+    background: #DB8F01;
+}
+
