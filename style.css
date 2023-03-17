@@ -58,21 +58,22 @@ article {
 }
 
 .quienesSomos{
-    width: 100%;
-    background-color:  #838E7B;
+    background-color: #838E7B;
+    width: max-content;
+    display: block;
     color: white;
-
-
-    
-font-family: 'Julee', cursive;
+    font-family: 'Julee', cursive;
 
 
 }
 .nuestroItamae {
-    font-family: 'Julee', cursive;
-    width: 100%;
+
     background-color: #838E7B;
+    width: max-content;
+    display: block;
     color: white;
+    font-family: 'Julee', cursive;
+    
 
 
 
