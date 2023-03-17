@@ -3,11 +3,8 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-<<<<<<< HEAD
     margin: 0;
-=======
     background-color: black;
->>>>>>> 83087c92383f3f135bf49d2c04e1aa5cf9a91bb6
 }
 
 nav {
@@ -75,9 +72,111 @@ font-family: 'Julee', cursive;
 .nuestroItamae {
     font-family: 'Julee', cursive;
     width: 100%;
+    display: block;
     background-color: #838E7B;
     color: white;
-
-
-
 }
+
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #000000;
+    display: block;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 50px;
+    padding: 0px 0px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1  .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: rgb(66, 65, 65);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1  .red-social a:hover{
+    color: salmon;
+}
+.pie-pagina .grupo-1 .sorteos{
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    padding: 20px;
+}
+i{
+    display:block;
+    width: 50px;
+    font-weight: 700;
+    border-radius: 30px;
+    margin: 150px 130;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: white;
+}
+i:hover {
+    background-color:salmon;
+    border: 2px solid salmon;
+    color: salmon;
+}
+.pie-pagina .grupo-1 .sorteos{
+    color: white;
+    width: 45px;
+    height: 45px;
+    margin-left: 25px;
+    }
+    
+    .pie-pagina .grupo-2{
+        background-color: rgb(75, 74, 74);
+        padding: 15px 10px;
+        text-align: center;
+        color: white;
+    }
+    .pie-pagina .grupo-2 small{
+        font-size: 15px;
+    }
+    @media screen and (max-width:800px){
+     .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+        }
+    }
+    
+    input[type='submit']{
+        background-color: #DB8F01;
+        color: #fff;
+        width: calc(100% - 0px);
+        margin: 0;
+        margin-top: 5px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    input {
+        width: calc(100% - 20px);
+        padding: 9px;
+        margin: auto;
+        font-size: 16px
+    }
