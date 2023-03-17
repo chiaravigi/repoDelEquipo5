@@ -3,7 +3,11 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+<<<<<<< HEAD
     margin: 0;
+=======
+    background-color: black;
+>>>>>>> 83087c92383f3f135bf49d2c04e1aa5cf9a91bb6
 }
 
 nav {
@@ -57,14 +61,23 @@ article {
     width: 1330px;
 }
 
-.nuestroitamae {
-    background-color: #838E7B;
-    position: fixed;
-}
-
 .quienesSomos{
+    width: 100%;
+    background-color:  #838E7B;
+    color: white;
 
+
+    
+font-family: 'Julee', cursive;
+
+
+}
+.nuestroItamae {
+    font-family: 'Julee', cursive;
+    width: 100%;
     background-color: #838E7B;
-    position:relative;
+    color: white;
+
+
 
 }
