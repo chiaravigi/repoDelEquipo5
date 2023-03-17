@@ -3,7 +3,11 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+<<<<<<< HEAD
+    margin: 0;
+=======
     background-color: black;
+>>>>>>> 83087c92383f3f135bf49d2c04e1aa5cf9a91bb6
 }
 
 nav {
