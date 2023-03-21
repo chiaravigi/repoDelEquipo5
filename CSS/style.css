@@ -81,8 +81,8 @@ article {
 .pie-pagina{
     width: 100%;
     background-color: #000000;
-    display: block;
 }
+
 .pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -90,17 +90,20 @@ article {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 50px;
-    padding: 0px 0px;
+    padding: 40px 0px;
 }
+
 .pie-pagina .grupo-1 .box h2{
     color: white;
     margin-bottom: 25px;
     font-size: 20px;
 }
+
 .pie-pagina .grupo-1 .box p{
     color: white;
     margin-bottom: 10px;
 }
+
 .pie-pagina .grupo-1  .red-social a{
     display: inline-block;
     text-decoration: none;
@@ -113,9 +116,11 @@ article {
     text-align: center;
     transition: all 300ms ease;
 }
+
 .pie-pagina .grupo-1  .red-social a:hover{
     color: salmon;
 }
+
 .pie-pagina .grupo-1 .sorteos{
     color: white;
     width: 45px;
@@ -123,6 +128,7 @@ article {
     margin-right: 10px;
     padding: 20px;
 }
+
 i{
     display:block;
     width: 50px;
@@ -134,11 +140,13 @@ i{
     color: rgb(255, 255, 255);
     background-color: white;
 }
+
 i:hover {
     background-color:salmon;
     border: 2px solid salmon;
     color: salmon;
 }
+
 .pie-pagina .grupo-1 .sorteos{
     color: white;
     width: 45px;
@@ -151,7 +159,6 @@ i:hover {
         padding: 15px 10px;
         text-align: center;
         color: white;
-        margin-top: 10px;
     }
     .pie-pagina .grupo-2 small{
         font-size: 15px;
@@ -164,22 +171,25 @@ i:hover {
         padding: 35px 0px;
         }
     }
-    
-    input[type='submit']{
-        background-color: #DB8F01;
-        color: #fff;
-        width: calc(100% - 20px);
-        margin: 0;
-        margin-top: 5px;
-        border: none;
-        border-radius: 10px;
-        border-bottom: 10px;
-    }
 
-    input {
-        background-color: bisque;
-        width: calc(100% - 20px);
-        padding: 9px;
-        margin: auto;
-        font-size: 16px
-    }
+input[type='submit']{
+    background-color: #DB8F01;
+    color: #fff;
+    width: calc(100% - 20px);
+    margin: 0;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+
+input {
+    background-color: bisque;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    font-size: 16px
+}
+
+    
+
