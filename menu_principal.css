@@ -1,4 +1,3 @@
-
 * {
     text-decoration: none;
     list-style: none;
@@ -49,31 +48,66 @@ nav ul li a {
 .menu li a:hover{
     background: #DB8F01;
 }
-------------------------------
-article {
-    background-color: #838E7B;
-    top: 1000px; 
-    left: 0px;
-    height: 300px;
-    width: 1330px;
-}
-
-.quienesSomos{
-    background-color: #838E7B;
-    width: max-content;
-    display: block;
-    color: white;
-    font-family: 'Julee', cursive;
 
 
-}
-.nuestroItamae {
+/*:::::Contenido*/
+.imagenes{
     background-color: #838E7B;
-    width: max-content;
-    display: block;
-    color: white;
-    font-family: 'Julee', cursive;
+    margin: 0;
+    
 }
+
+.imagen1{
+    height: 191px;
+    width: 327px;
+    border-radius: 50px;
+    position: absolute;
+    left: 15%;
+    top: 15%;    
+
+}
+
+.imagen2{
+    height: 191px;
+    width: 327px;
+    border-radius: 50px;
+    position: absolute;
+    right: 15%;  
+    top: 15%;    
+ 
+}
+
+.imagen3{
+    height: 191px;
+    width: 327px;
+    border-radius: 50px;
+    position: absolute;
+    left: 38%; 
+    top: 43%;
+}
+
+.imagen4{
+    height: 191px;
+    width: 327px;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;  
+    left: 15%; 
+
+}
+
+.imagen5{
+    height: 191px;
+    width: 327px;
+    border-radius: 50px;
+    position: absolute;
+    top: 70%;  
+    right: 15%; 
+}
+
+
+
+
 
 
 
