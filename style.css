@@ -151,6 +151,7 @@ i:hover {
         padding: 15px 10px;
         text-align: center;
         color: white;
+        margin-top: 10px;
     }
     .pie-pagina .grupo-2 small{
         font-size: 15px;
@@ -167,14 +168,16 @@ i:hover {
     input[type='submit']{
         background-color: #DB8F01;
         color: #fff;
-        width: calc(100% - 0px);
+        width: calc(100% - 20px);
         margin: 0;
         margin-top: 5px;
         border: none;
         border-radius: 10px;
+        border-bottom: 10px;
     }
 
     input {
+        background-color: bisque;
         width: calc(100% - 20px);
         padding: 9px;
         margin: auto;
