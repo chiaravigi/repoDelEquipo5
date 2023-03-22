@@ -364,13 +364,7 @@ body
                 border: none;
                 border-radius: 10px;
                 border-bottom: 10px;
-                * {
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    margin: 0;
-}
-
+               
 nav {
     background: black;
     height: 90px;
