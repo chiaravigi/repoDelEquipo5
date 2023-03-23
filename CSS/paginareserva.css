@@ -1,10 +1,45 @@
 
+.principal {
+    background: #757575;
+    margin: 0%;
+}
+.header{
+    background:#000000; 
+    height: 0px; 
+    width: 100%;
+
+}
+.footer{
+    background:#000000; 
+    height: 0px; 
+    width: 100%; 
+}
+.container{
+    height: 600px;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.texto{
+   font-family: 'Franklin Gothic Medium';
+   font-size: 22px;
+   margin-bottom: 5px;
+}
+.campo{
+  width: 300px; 
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 5px;
+  outline: 0px;
+  border: 0px;
+  background-color:  bisque;
+}
+
 * {
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
     margin: 0;
-    background-color: black;
 }
 
 nav {
@@ -50,39 +85,12 @@ nav ul li a {
     background: #DB8F01;
 }
 
-article {
-    background-color: #838E7B;
-    top: 1000px; 
-    left: 0px;
-    height: 300px;
-    width: 1330px;
-}
-
-.quienesSomos{
-    background-color: #838E7B;
-    width: max-content;
-    display: block;
-    color: white;
-    font-family: 'Julee', cursive;
-
-
-}
-.nuestroItamae {
-    background-color: #838E7B;
-    width: max-content;
-    display: block;
-    color: white;
-    font-family: 'Julee', cursive;
-}
-
-
-
 /*:::::Pie de Pagina*/
 .pie-pagina{
     width: 100%;
     background-color: #000000;
-    display: block;
 }
+
 .pie-pagina .grupo-1{
     width: 100%;
     max-width: 1200px;
@@ -90,17 +98,20 @@ article {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 50px;
-    padding: 0px 0px;
+    padding: 40px 0px;
 }
+
 .pie-pagina .grupo-1 .box h2{
     color: white;
     margin-bottom: 25px;
     font-size: 20px;
 }
+
 .pie-pagina .grupo-1 .box p{
     color: white;
     margin-bottom: 10px;
 }
+
 .pie-pagina .grupo-1  .red-social a{
     display: inline-block;
     text-decoration: none;
@@ -113,9 +124,11 @@ article {
     text-align: center;
     transition: all 300ms ease;
 }
+
 .pie-pagina .grupo-1  .red-social a:hover{
     color: salmon;
 }
+
 .pie-pagina .grupo-1 .sorteos{
     color: white;
     width: 45px;
@@ -123,6 +136,7 @@ article {
     margin-right: 10px;
     padding: 20px;
 }
+
 i{
     display:block;
     width: 50px;
@@ -134,11 +148,13 @@ i{
     color: rgb(255, 255, 255);
     background-color: white;
 }
+
 i:hover {
     background-color:salmon;
     border: 2px solid salmon;
     color: salmon;
 }
+
 .pie-pagina .grupo-1 .sorteos{
     color: white;
     width: 45px;
@@ -151,7 +167,6 @@ i:hover {
         padding: 15px 10px;
         text-align: center;
         color: white;
-        margin-top: 10px;
     }
     .pie-pagina .grupo-2 small{
         font-size: 15px;
@@ -164,22 +179,23 @@ i:hover {
         padding: 35px 0px;
         }
     }
-    
-    input[type='submit']{
-        background-color: #DB8F01;
-        color: #fff;
-        width: calc(100% - 20px);
-        margin: 0;
-        margin-top: 5px;
-        border: none;
-        border-radius: 10px;
-        border-bottom: 10px;
-    }
 
-    input {
-        background-color: bisque;
-        width: calc(100% - 20px);
-        padding: 9px;
-        margin: auto;
-        font-size: 16px
-    }
+input[type='submit']{
+    background-color: #DB8F01;
+    color: #fff;
+    width: calc(100% - 20px);
+    margin: 0;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+
+input {
+    background-color: bisque;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    font-size: 16px
+}
+
